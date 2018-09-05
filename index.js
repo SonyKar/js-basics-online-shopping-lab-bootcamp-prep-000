@@ -22,6 +22,8 @@ function viewCart() {
   var i = 0;
   var tmp = "In your cart, you have ";
   
+  if (cart.length === 0) return "Your shopping cart is empty."
+  
   while(i < cart.length) {
     if (i === cart.length - 1) tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ".";
     else  tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
