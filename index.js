@@ -10,7 +10,10 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- var tmp = {itemName: item};
+ var tmp = {
+   itemName: item,
+   itemPrice: math.Random();
+ };
 }
 
 function viewCart() {
