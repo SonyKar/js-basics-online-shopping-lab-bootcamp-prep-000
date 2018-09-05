@@ -36,7 +36,12 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+  var i = 0;
+  var sum = 0;
+  
+  while(i < cart.length) {
+    sum += cart[i].itemPrice;
+  }
 }
 
 function removeFromCart(item) {
