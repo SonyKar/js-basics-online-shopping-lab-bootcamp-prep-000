@@ -20,6 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   var i = 0;
+  var tmp = "In your cart, you have ";
   
   while(i < cart.length) {
     
