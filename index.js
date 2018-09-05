@@ -14,7 +14,7 @@ function addToCart(item) {
    itemName: item,
    itemPrice: Math.Floor(Math.Random() * (101 - 1 + 1)) + 1
  };
- cart.push
+ cart.push(tmp);
 }
 
 function viewCart() {
