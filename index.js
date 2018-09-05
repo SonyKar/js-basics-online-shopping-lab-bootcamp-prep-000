@@ -41,7 +41,9 @@ function total() {
   
   while(i < cart.length) {
     sum += cart[i].itemPrice;
+    i++;
   }
+  return sum;
 }
 
 function removeFromCart(item) {
