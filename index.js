@@ -32,7 +32,7 @@ function viewCart() {
           i++;
         }
     }
-    return tmp;
+  return tmp;
 }
 
 function total() {
