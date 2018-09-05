@@ -25,6 +25,7 @@ function viewCart() {
   while(i < cart.length) {
     if (i === cart.length - 1) tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ".";
     else  tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
+    i++;
   }
 }
 
