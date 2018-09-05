@@ -27,7 +27,7 @@ function viewCart() {
       tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ".";
     } else {
         while(i < cart.length) {
-          if (i === cart.length - 1) tmp += " and " + cart[i].itemName + " at $" + cart[i].itemPrice + ".";
+          if (i === cart.length - 1) tmp += "and " + cart[i].itemName + " at $" + cart[i].itemPrice + ".";
           else  tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
           i++;
         }
