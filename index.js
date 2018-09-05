@@ -21,6 +21,9 @@ function addToCart(item) {
 function viewCart() {
   var i = 0;
   
+  while(i < cart.length) {
+    
+  }
 }
 
 function total() {
