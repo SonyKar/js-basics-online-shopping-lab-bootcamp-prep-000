@@ -53,13 +53,13 @@ function removeFromCart(item) {
   while(i < cart.length) {
     if (cart[i].itemName === item) {
       cart.splice(i, 1);
-      flag = true;
+      isItem = true;
     } else {
       i++;
     }
   }
   
-  if (flag === false) {
+  if (isItem === false) {
     return "That item is not in your cart.";
   } else return cart;
 }
