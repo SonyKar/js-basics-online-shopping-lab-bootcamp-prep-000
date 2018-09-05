@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
  var tmp = {
    itemName: item,
-   itemPrice: math.Random() * (1 + 101) + 1;
+   itemPrice: math.Random() * (101 - 1) + 1;
  };
 }
 
