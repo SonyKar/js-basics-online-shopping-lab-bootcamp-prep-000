@@ -23,7 +23,8 @@ function viewCart() {
   var tmp = "In your cart, you have ";
   
   while(i < cart.length) {
-    tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
+    if (i === cart.length - 1) tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ".";
+    else  tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
   }
 }
 
