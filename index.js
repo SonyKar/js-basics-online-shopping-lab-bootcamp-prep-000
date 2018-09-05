@@ -27,6 +27,7 @@ function viewCart() {
     else  tmp += cart[i].itemName + " at $" + cart[i].itemPrice + ", ";
     i++;
   }
+  return tmp;
 }
 
 function total() {
