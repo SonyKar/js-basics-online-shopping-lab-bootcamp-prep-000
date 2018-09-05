@@ -48,6 +48,11 @@ function total() {
 
 function removeFromCart(item) {
   var i = 0;
+  var itemPosition = 0;
+  
+  while(i < cart.length) {
+    
+  }
 }
 
 function placeOrder(cardNumber) {
